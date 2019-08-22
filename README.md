@@ -29,6 +29,7 @@ This document outlines a broad set of guidelines to execute a large-scale data c
 ## Storage
 - Buckets are a good idea, do more of those
 - Always stream data from stores
+
                 from google.cloud import storage
                 data_store = storage.Client()
 

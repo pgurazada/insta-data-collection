@@ -36,8 +36,9 @@ META_DATA_PATTERN = (
     "{comments}"
 )
 
-# login with instaloader -l "your-instagram-login"
+# login with instaloader -l "your-instagram-username"
 # the session cookie will be saved to ~/.config/instaloader/session-your-username 
+# this script automatically reads the session cookie
 LOGIN_USER_NAME = "your-instagram-username"
 
 L = Instaloader(
